@@ -1,0 +1,91 @@
+@import "../../assets/scss/mixin.scss";
+.convert-section{
+    position: relative;
+    .convert-container{
+        width: 85%;
+        margin: 0 auto;
+        .heading{
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 52px;
+            text-align: center;
+            color: #251F17;
+            font-family: GT Super Txt Trial;
+            margin-bottom: 5px;
+            span{
+                color: #CA612E;
+            }
+        }
+        .heading-img{
+            position: relative;
+            bottom: 45px;
+            left: 125px;
+        }
+        .heading-text{
+            width: 700px;
+            margin: 0 auto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            font-family: Inter;
+        }
+        .converting-steps{
+            display: flex;
+            justify-content: space-evenly;
+            .item{
+                width: 278px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // justify-content: center;
+                .item-img{
+                    width: 91px;
+                    height: 91px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .item-heading{
+                    font-family: GT Super Txt Trial;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 36.4px;
+                    color: #1E1E1E;
+                    margin-top: 4px;
+                    margin-bottom: 4px;
+                }
+                .item-text{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #544E47;
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(desktop) {
+    .convert-section{
+       
+        .convert-container{
+            .heading{
+                font-size: 38px;
+            }
+            .heading-img{
+               
+                position: relative;
+                bottom: 45px;
+                left: 1px;
+                img{
+                    width: 100px;
+                }
+            }
+        }
+    }
+    
+    }
+    

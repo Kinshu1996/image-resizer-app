@@ -1,0 +1,60 @@
+@import "../../assets/scss/style.scss";
+.our-number-section{
+    height: 357.5px;
+    margin: 20px 0;
+    background: url("../../assets/images/Rectangle.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    .our-number-container{
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left-container{
+            width: 362px;
+            .heading-box{
+                display: flex;
+                margin-bottom: 30px;
+                align-items: start;
+                .heading{
+                    font-family: GT Super Txt Trial;
+                    font-weight: 900;
+                    font-size: 48px;
+                    line-height: 62.4px;
+                    color: #ffffff;
+                }
+            }
+            
+        }
+        .right-container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 100px;
+            .col{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .sub-heading{
+                    font-weight: 800;
+                    font-size: 54px;
+                    line-height: 64.8px;
+                    color: #FFFFFF;
+                }
+                .text{
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    color: #FFFFFF;
+
+                }
+
+                .first-row{}
+                .second-row{}
+            }
+        }
+    }
+}

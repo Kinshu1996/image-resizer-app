@@ -1,0 +1,210 @@
+@import "../../assets/scss/style.scss";
+@import "../../assets/scss/mixin.scss";
+.useCase-section{
+    .useCase-container{
+        width: 85%;
+        margin: 0 auto;
+        .use-case-subheading{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #DE6B32;
+
+        }
+        .use-case-heading{
+            font-family: GT Super Txt Trial;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+            span{
+                color: #DE6B32;
+            }
+        }
+        .use-case-content{
+            margin-top: 50px;
+            margin-bottom: 30px;
+           .ant-row{
+            row-gap: 30px;
+            .text-container{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                // align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                // align-content: center;
+                .group-img{
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+                .vector-img{
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    bottom: 0;
+                    right: 0;
+                }
+                .subheading-text{
+                font-family: Inter;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 27px;
+                letter-spacing: 0em;
+                color: #DE6B32;
+                }
+                .heading-text{
+                    font-family: GT Super Txt Trial;
+                    font-size: 40px;
+                    font-weight: 900;
+                    line-height: 52px;
+                    letter-spacing: 0em;
+                    
+                }
+                .text-1{
+                    width: 403px;
+                }
+                .text-2{
+                    width: 493px;
+                    position: relative;
+                    .text-vector{
+                        position: absolute;
+                        top: 52px;
+                    }
+                }
+                // .vector-img{
+                //     width: 135.34px;
+                //     align-self: flex-end;
+                //     margin-top: 20px;
+                //     display: flex;
+                //     flex-direction: column;
+                // }
+            }
+            .first-row-img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+            }
+            .second-row-img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+           }
+        }
+    }
+}
+
+
+
+@include respond-to(desktop) {
+    .useCase-section{
+        .useCase-container{
+            width: 85%;
+            margin: 0 auto;
+            .use-case-subheading{
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #DE6B32;
+    
+            }
+            .use-case-heading{
+                font-family: GT Super Txt Trial;
+                font-size: 40px;
+                font-weight: 900;
+                line-height: 52px;
+                letter-spacing: 0em;
+                text-align: center;
+                span{
+                    color: #DE6B32;
+                }
+            }
+            .use-case-content{
+                margin-top: 50px;
+                margin-bottom: 30px;
+               .ant-row{
+                row-gap: 30px;
+                .text-container{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    // align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    // align-content: center;
+                    .group-img{
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                    .vector-img{
+                        position: absolute;
+                        display: flex;
+                        flex-direction: column;
+                        bottom: 0;
+                        right: 0;
+                    }
+                    .subheading-text{
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 27px;
+                    letter-spacing: 0em;
+                    color: #DE6B32;
+                    }
+                    .heading-text{
+                        font-family: GT Super Txt Trial;
+                        font-size: 40px;
+                        font-weight: 900;
+                        line-height: 52px;
+                        letter-spacing: 0em;
+                        
+                    }
+                    .text-1{
+                        width: 403px;
+                    }
+                    .text-2{
+                        width: 493px;
+                        position: relative;
+                        .text-vector{
+                            position: absolute;
+                            top: 52px;
+                        }
+                    }
+                    // .vector-img{
+                    //     width: 135.34px;
+                    //     align-self: flex-end;
+                    //     margin-top: 20px;
+                    //     display: flex;
+                    //     flex-direction: column;
+                    // }
+                }
+                .first-row-img{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                }
+                .second-row-img{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+               }
+            }
+        }
+    }
+    
+    }

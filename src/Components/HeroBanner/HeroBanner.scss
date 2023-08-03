@@ -1,0 +1,54 @@
+@import "../../assets/scss/style.scss";
+
+.heroBanner-section{
+    height: 665px;
+    background: linear-gradient(358.79deg, rgba(252, 240, 235, 0.21) -21.69%, rgba(255, 168, 132, 0.25) 147.96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .heroBanner-container{
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .left-container{
+            .heading{
+                
+                width: 450px;
+                font-size: 48px;
+                font-weight: 900;
+                line-height: 62.4px;
+                color: #251F17;
+                font-family: GT Super Txt Trial;
+                margin-bottom: 20px;
+                span{
+                    color: #CA612E;
+                }
+
+            }
+            .text{
+                width: 420px;
+                font-family: Inter;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #544E47;
+                margin-bottom: 20px;
+            }
+            
+        }
+        .right-container{
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+
+}

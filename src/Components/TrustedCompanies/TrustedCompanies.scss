@@ -1,0 +1,54 @@
+.trusted-companies-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .trusted-companies-container{
+        width: 85%;
+        margin: 0 auto;
+        .top{
+            width: 765.07px;
+            margin: 0 auto;
+        .top-heading{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            font-family: Inter;
+            color: #DE6B32;
+            text-align: center;
+        }
+        .top-txt{
+            font-size: 33px;
+            font-weight: 700;
+            line-height: 42.9px;
+            font-family: GT Super Txt Trial;
+            text-align: center;
+        }
+        .vector-img{
+            text-align: end;
+        }
+        }
+        .bottom{
+            margin-top: 5px;
+            .ant-card{
+                background-color: transparent;
+                border: none;
+                .ant-card-body{
+                    // align-items: center;
+                    justify-content: center;
+                    gap: 25px;
+                    .ant-card-grid{
+                       width: 165px;
+                       height: 73.69px;
+                       border: 0.5px solid #CAD6F1;
+                       border-radius: 5px;
+                    //    padding: 0;
+                       img{
+                        width: 100%;
+                        height: 100%;
+                       }
+                    }
+                }
+            }
+        }
+        
+    }
+}

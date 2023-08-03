@@ -1,0 +1,135 @@
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+.testimonial-section{
+    background: linear-gradient(278.93deg, rgba(222, 107, 50, 0.12) 43.05%, rgba(248, 243, 240, 0) 79.83%);
+    padding: 50px 0;
+    .testimonial-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        .testimonial-left-side{
+            width: 50%;
+            .alice-carousel{
+                .alice-carousel__dots {
+                    display: none;
+                }
+                .alice-carousel__stage-item{
+                    width: 516px !important;
+                    .item{
+                        background: #FCF0EB;
+                        //  width: 100%;
+                        //  height: 473px;
+                         border-radius: 20px;
+                         display: flex;
+                            flex-direction: column;
+                            align-items: start;
+                            justify-content: center;
+                            padding: 70px;
+                            .dashed{
+                                    font-weight: 800;
+                                    font-size: 45px;
+                                    line-height: 24px;
+                                    color: #FFFFFF;
+                            }
+                            .text{
+                                font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #FFFFFF;
+                            }
+                            .item-bottom{
+                                display: flex;
+                                gap: 20px;
+                                margin-top: 30px;
+                                align-items: center;
+                                .avtar-img{
+                                    width: 45px;
+                                    height: 45px;
+                                }
+                                .avtar-name{
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 27px;
+                                    color: #FFFFFF;
+                                }
+                            }
+                    }
+                    &.__active{
+                        margin: 0  60px ;
+                        .item{
+                            background: #DE6B32;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: start;
+                            justify-content: center;
+                            padding: 70px;
+                            .dashed{
+                                    font-weight: 800;
+                                    font-size: 45px;
+                                    line-height: 24px;
+                                    color: #FFFFFF;
+                            }
+                            .text{
+                                font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #FFFFFF;
+                            }
+                            .item-bottom{
+                                display: flex;
+                                gap: 20px;
+                                margin-top: 30px;
+                                align-items: center;
+                                .avtar-img{
+                                    width: 45px;
+                                    height: 45px;
+                                }
+                                .avtar-name{
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 27px;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+                }
+                .alice-carousel__prev-btn-item, .alice-carousel__next-btn-item {
+                    color: #251F17;
+                    font-size: 16px;
+                    width: 31px;
+                    height: 31px;
+                  text-align: center;
+                    border-radius: 50%;
+                    &:hover{
+                        background-color: #eeccbd;
+                        border: 0.5px solid #eeccbd;
+                    }
+                }
+                
+            }
+            
+           
+            
+        }
+        .testimonial-right-side{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            .sub-heading{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #DE6B32;
+            }
+            .heading{
+                font-family: GT Super Txt Trial;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 52px;
+                color: #000000;
+            }
+        }
+    }
+}

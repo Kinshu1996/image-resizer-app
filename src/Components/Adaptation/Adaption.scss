@@ -1,0 +1,54 @@
+.adaption-section{
+    margin: 50px 0;
+    background-color: #FFF6F1;
+    padding: 50px 0;
+    .adaption-container{
+        // width: 85%;
+        margin: 0 auto;
+        .top-heading{
+            font-family: GT Super Txt Trial;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 52px;
+            text-align: center;
+            color: #292219;
+            span{
+                color: #DE6B32;
+            }
+
+        }
+        .top-subheading{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #544E47;
+        }
+        .img-container{
+            // background: url("../../assets/images/Body.png");
+            // background-position: center;
+            // background-repeat: no-repeat;
+            height: 597px;
+            width: 85%;
+            margin: 20px auto;
+            // margin-top: 20px;
+            // margin-bottom: 20px;
+            // text-align: center;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            // .img{
+            //     padding: 20px;
+            //     border-radius: 13px;
+            //     background-color: #ffffff;
+            //     box-shadow: 3.0982141494750977px 3.0982141494750977px 9.294642448425293px 0px #0000000D;
+            //     margin-top: 100px;
+            // }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+    }
+}
